@@ -1,105 +1,110 @@
 <!DOCTYPE html>
-<html lang="en-us">
+<html lang="en">
   <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>About | James Baine</title>
 
-    <title>Bootstrap Basic Portfolio</title>
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/css/bootstrap.min.css" integrity="sha384-rwoIResjU2yc3z8GV/NPeZWAv56rSmLldC3R/AZzGRnGxQQKnKkoFVhFQhNUwEyJ" crossorigin="anonymous">
 
-
-		<!-- Latest compiled and minified CSS -->
-		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
-
-
-    <!-- Our own CSS stylesheet -->
-    <link rel="stylesheet" href="assets/css/styles.css" media="screen">
+    <link rel = "stylesheet" type = "text/css" href = "assets/css/style.css">
 
   </head>
-
   <body>
-    <!-- Start of navbar -->
-    <nav class="navbar navbar-default">
-      <div class="container-fluid navbar-custom">
+<div class="container">
+    <nav class="navbar navbar-toggleable-md navbar-light navbar-inverse bg-info mb-4" style="border-bottom:2px solid #ddd">
 
-        <!-- Brand and toggle get grouped for better mobile display -->
-        <div class="row">
-          <div class="navbar-header">
-            <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
-              <span class="sr-only">Toggle navigation</span>
-              <span class="icon-bar"></span>
-              <span class="icon-bar"></span>
-              <span class="icon-bar"></span>
-            </button>
-            <div class="col-xs-12 phone-nav">
-              <a class="navbar-brand" href="index.html" id="logo">James Baine</a>
-            </div>
-          </div>
-
-          <!-- Collect the nav links, forms, and other content for toggling -->
-          <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-            <ul class="nav navbar-nav navbar-right navbar-right-custom">
-              <li><a href="contact.html">Contact</a></li>
-              <li><a href="portfolio.html">Portfolio</a></li>
-              <li><a href="index.html">About</a></li>
-            </ul>
-          </div><!-- /.navbar-collapse -->
-        </div>
-      </div><!-- /.container-fluid -->
-    </nav>
-    <!-- End of navbar -->
-
-    <!-- Start of content wrap -->
-    <div class="wrap">
-      <div class="container">
-        <section class="row">
-          <div class="col-md-8">
-            <article class="about-me-content">
-              <h1 class="about-me-header">About Me</h1>
-              <hr class="about-me-hr"/>
-              <img src="assets/imgs/natebeach.jpeg" alt="" id="nate-image"/>
-              <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-              <br />
-              <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
-            </article>
-          </div>
-          <div class="col-md-4">
-
-            <!-- Start of Connect With Me Area -->
-            <section id="connect-with-me-area">
-              <div class="connect-with-me-content">
-                <h1 class="connect-with-me-header">Connect With Me</h1>
-                <hr />
-                <div id="images">
-                  <img src="assets/imgs/github.png" alt="" class="connect-with-me-photo">
-                  <img src="assets/imgs/linkedin.png" alt="" class="connect-with-me-photo">
-                  <img src="assets/imgs/stackover2.png" alt="" class="connect-with-me-photo">
-                </div>
-              </div>
-            </section>
-            <!-- End of the Connect With Me Area -->
-
-          </div>
-        </section>
-      </div>
+      <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+    </button>
+    <a class="navbar-brand pl-3" href="index.html"><h2>James Baine</h2></a>
+    <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+    <div class="navbar-nav">
+      <a class="nav-item nav-link active" href="index.html">About<span class="sr-only">(current)</span></a>
+      <a class="nav-item nav-link" href="portfolio.html">Portfolio</a>
+      <a class="nav-item nav-link" href="contact.html">Contact</a>
     </div>
-    <!-- End of content wrap -->
+    </div><!--container-->
+  </div>
+</nav>
 
-    <!-- Start of footer -->
-    <footer class="footer">
-      <div class="two-toned-footer-color"></div>
-      <p class="text-muted text-muted-footer text-center">
-        &copy; Copyright Rutgers Coding Bootcamp 2016
-      </p>
-    </footer>
-    <!-- End of footer -->
+     <div class="container">
 
-    <!-- jQuery CDN -->
-    <script type="text/javascript" src="https://code.jquery.com/jquery-2.1.4.min.js"></script>
+        <div id="main-content" class="float-left col-md-7 col-lg-8 mb-4" style="border:1px solid #ddd">
 
-    <!-- Bootstrap CDN -->
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
+                    <div class="col-lg-6">
+
+                    <h2 class="pb-2 pt-2 text-info" style="border-bottom:3px solid #ddd">About Me</h1>
+
+                    <img class="mb-1 mr-3 img-fluid float-left" src="assets/images/profile.jpg" alt="Profile">
+                    </div><!--col-->
+
+                        <div class="col-12">
+                          <p class="mb-2">
+                            Hi, my name James Baine and I am a wannabe web developer. I graduated from UC Santa Barbara in 2014 with a BA in Global Studies but I still to this day have not figured out what I’m supposed to do with that degree. After college I went in a different direction and started working at Paramount Recording as a runner with the plan to learn all I can about sound engineering and hopefully make a career out of it. It was an awesome job, I got to meet a lot of well-known musicians and I got a lot of interesting stories out of it but I ultimately decided the music industry wasn’t really for me and that’s when I started to dabble with coding.
+                          </p>
+
+                          <p>
+
+                          I'm now fully totally to committed to starting a career in web/software development. I’m very excited about all the creative possibilities in this line of work. It’s also just a super useful skill you can basically apply to anything and the fact that I’m going into the one of the fasting growing industries out there is just the icing on the cake. Overall, I’m super stoked on what the future holds for me!
+
+                          </p>
+
+                    </div>
+
+              </div><!--col-sm-8-->
+
+              <div id="sidebar" class="float-right col-md-4 col-lg-3 pl-0 pr-0 connect" align="center" style="border:1px solid #ddd">
+
+                <h3 class="panel-title ml-3 mr-3 pt-3 pb-3 text-info" style="border-bottom:2px solid #ddd">Connect with Me</h3>
+
+                  <div class="panel-body p-2">
+
+                    <a href="https://github.com/JamesBaine">
+                    <img class="icon thumbnail img-responsive" src="assets/images/github.png" width ="60px" alt="Github">
+                    </a>
+
+
+                    <a href="https://www.linkedin.com/in/james-baine-3bb973138">
+                    <img class="icon thumbnail img-responsive"
+                    src="assets/images/linkedin.png" width ="60px" alt="LinkedIn">
+                    </a>
+
+
+
+                    <a href="http://stackoverflow.com/users/7788894/james-baine">
+                    <img class="icon thumbnail img-responsive" src="assets/images/stackoverflow.png" width ="60px" alt="StackOverflow">
+                    </a>
+
+                </div>
+
+              </div><!--col-sm-4-->
+
+
+
+          </div><!--container-->
+
+<footer>
+
+    <div class="container">
+
+      Copyright &copy; 2017 James Baine
+
+</div>
+
+  </footer>
+
   </body>
 
+
+
+
+    <!-- jQuery first, then Tether, then Bootstrap JS. -->
+    <script src="https://code.jquery.com/jquery-3.1.1.slim.min.js" integrity="sha384-A7FZj7v+d/sdmMqp/nOQwliLvUsJfDHW+k9Omg/a/EheAdgtzNs3hpfag6Ed950n" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/tether/1.4.0/js/tether.min.js" integrity="sha384-DztdAPBWPRXSA/3eYEEUWrWCy7G5KFbe8fFjk5JAIxUYHKkDx6Qin1DkWx51bBrb" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/js/bootstrap.min.js" integrity="sha384-vBWWzlZJ8ea9aCX4pEW3rVHjgjt7zpkNpZk+02D9phzyeVkE+jo0ieGizqPLForn" crossorigin="anonymous"></script>
+  </body>
 </html>
