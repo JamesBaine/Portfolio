@@ -65,6 +65,8 @@ footer {
   padding: 15px;
   margin-bottom: 0;
   border-bottom: 0;
+	font-weight: 300;
+	line-height: 30px;
 }
 
 .work {
@@ -78,3 +80,12 @@ footer {
 .work img {
 	padding: 0;
 }
+
+/*#giftastic {
+	background-color: #f49bbb;
+	font-family: 'Barrio', cursive;
+}
+
+#giftastic:hover {
+	color: #f1ed5d;
+}*/
