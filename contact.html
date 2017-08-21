@@ -23,14 +23,14 @@
   		<a id="brand" class="navbar-brand" href="index.html">James Baine</a>
 		  <div id="navbarNav" class="collapse navbar-collapse" >
 		    <ul class="navbar-nav">
-		      <li id="active" class="nav-item active">
-		        <a class="nav-link" href="index.html">About <span class="sr-only">(current)</span></a>
+		      <li  class="nav-item">
+		        <a class="nav-link" href="index.html">About</a>
 		      </li>
 		      <li class="nav-item">
 		        <a class="nav-link" href="portfolio.html">Portfolio</a>
 		      </li>
-		      <li class="nav-item">
-		        <a class="nav-link" href="contact.html">Contact</a>
+		      <li  id="active"class="nav-item active">
+		        <a class="nav-link" href="contact.html">Contact <span class="sr-only">(current)</span></a>
 		      </li>
 		    </ul>
 		  </div>
@@ -39,16 +39,29 @@
 	<div id="main-container" class="container my-4">
 
 		<div id="main-content" class="container col-md-7 col-lg-8 float-left mb-4">
-			<h1 class="pb-2 pl-1 mt-2 mb-4">About Me</h1>
-			<div class="container col-sm-12 col-lg-6 float-left p-0">
-				<img id="prof-pic" class="col-12 w-100" src="assets/images/profile.jpg" alt="Profile">
-			</div>
+			<h1 class="pb-2 pl-1 mt-2 mb-4">Contact Me</h1>
 			<div class="container col-12">
-				<p>Up and coming web developer with a passion for learning with an endless supply of optimism and curiosity.</p>
-				<p>One of my stronger points is writing front-ends that are smooth, simple and aesthetically pleasing. I primary use languages and libraries such as Javascript, CSS and Sass but I'm always learning new ones to try to find more efficient ways of doing things.</p>
-				<p>I am also growing increasingly comfortable and familiar with back-end development using Node.js, MySQL, Sequelize, etc.</p>
-				<p>Git is my VCS of choice and I definitely prefer Mac or Linux over Windows but I'm not afraid of trying new things.</p>
-				<p>I'm based in LA right now but I love traveling and going to new places to I am open to relocating if need be.</p>
+				<form>
+
+					<div class="form-group">
+
+					    <label for="name">Name</label>
+
+					    <input type="text" class="form-control" id="Name" name="name" placeholder="John Smith" required="required">
+
+
+					    <label for="email">Email</label>
+
+					    <input type="email" id="email" class="form-control" name="email" placeholder="example@gmail.com" required="required">
+
+					    <label for="message">Message</label>
+
+					    <textarea id="message" class="form-control" name="message" required="required"></textarea>
+
+						<button id="#submit-email" type="submit" class="btn mt-4">Submit</button>
+
+					</div>
+ 				</form>
 			</div>
 		</div>
 

@@ -81,6 +81,10 @@ footer {
 	padding: 0;
 }
 
+/*contact*/
+#submit-email {
+	background-color: #70A1FE;
+}
 /*#giftastic {
 	background-color: #f49bbb;
 	font-family: 'Barrio', cursive;
