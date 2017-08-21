@@ -9,6 +9,11 @@ p {
 body {
 	background: url("../images/paul-earle.jpg");
 }
+
+#main-content {
+	min-height: calc(100vh - 80px);
+}
+
 /*nav styles*/
 
 #main-nav {
@@ -82,8 +87,13 @@ footer {
 }
 
 /*contact*/
-#submit-email {
+#submit {
+	color: white;
 	background-color: #70A1FE;
+}
+
+#message {
+	min-height:18em;
 }
 /*#giftastic {
 	background-color: #f49bbb;
